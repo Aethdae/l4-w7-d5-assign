@@ -6,7 +6,7 @@ from models import User
 from db import engine
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins="https://d4vebcbtnubcr.cloudfront.net")
 
 #very similar to badge interview code, wanted to get started on capstone
 
